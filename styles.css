@@ -1,0 +1,151 @@
+/*header {
+    width: 20vw;
+    height: 100%;
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  #logo {
+    width: max(100px, 18vw);
+    background-color: #0a0a23;
+    aspect-ratio: 35 / 4;
+    padding: 0.4rem;
+  }*/
+
+  
+  body {
+    background: #f5f6f7;
+    color: #36454F;
+    font-family: Garamond, serif;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    
+  }
+  
+
+  /* header styling */
+
+  .headerh {
+    width: max(30vw, 300px);
+    height: 100%;
+    max-width: 375px;
+    background-color: #FFFFF0;
+    position: fixed;
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-right: 2px inset #C0C0C0;
+  }
+  
+  #logo {
+    max-width: max(15%, 75px);
+    padding: 0.4rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+  }
+  
+  header h1 {
+    font-size: 1.4rem;
+    width: 50%;
+  }
+
+  nav {
+    margin-left: -40px;
+  }
+
+  nav ul {
+    width: 100%;
+    height: 50vh;
+    list-style-type: none;
+    margin-top: -10px;
+  }
+
+  nav li {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+    margin-bottom: -15px;
+  }
+
+  nav header {
+    width: 100%;
+    height: 60px;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -75px;
+  }
+ 
+a {
+  color: #666699;
+  text-decoration: none;
+
+}
+
+.line {
+  border-bottom: 2px solid gray;
+  width: 88%;
+  margin-bottom: 10px;
+}
+
+h1 a {
+  color: #36454F;
+}
+
+/*main styling */
+
+main {
+  margin: auto;
+  margin-left: 400px;
+  margin-right: 50px;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+@media (max-width: 900px) {
+  main {
+
+      margin-left: 320px;
+  }
+
+}
+
+.sections h1 {
+  font-size: 2.5rem;
+  margin: 30px auto 50px auto;
+  font-style: bold;
+}
+
+.main-header {
+ font-size: 2rem;
+ font-weight: 600;
+ margin-top: 40px;
+ padding-bottom: 2px;
+ border-bottom: 1px solid #D3D3D3;
+}
+
+.sections p {
+  font-size: 1.1rem;
+}
+
+.sections pre {
+  border: 2px solid #343434;
+  width: 600px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.sections code {
+  color: gray;
+}
+

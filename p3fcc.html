@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="headerh">
+        <img id="logo" src="Infinite Dreams.png" > 
+        <img>
+        <h1><a href="#Exploring">Exploring the Fundamentals of Web Development: CSS, HTML, and JavaScript</a></h1>
+        <nav>
+            <header class="quickA">Quick Access</header>
+            <ul>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Introduction_to_Web_Development">Introduction to Web Development</a></li>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Understanding_HTML">Understanding HTML</a></li>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Styling_with_CSS">Styling with CSS</a></li>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Interactivity_with_JavaScript">Interactivity with JavaScript</a></li>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Bringing_it_All_Together">Bringing it All Together</a></li>
+                <div class="line"></div>
+                <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+                <div class="line"></div>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="main-doc">
+        <div class="spacer"></div>
+        <div class="sections">
+            <h1 id="Exploring">Exploring the Fundamentals of Web Development: CSS, HTML, and JavaScript</h1>
+            <section id="Introduction_to_Web_Development" class="main-section">
+                <header class="main-header">Introduction to Web Development</header>
+                <p>In the digital age, web development plays a pivotal role in shaping the online world. It encompasses the creation of interactive and visually appealing websites and web applications. This project delves into the foundational aspects of web development, specifically focusing on three key technologies: Cascading Style Sheets (CSS), HyperText Markup Language (HTML), and JavaScript.</p>
+            </section>
+            <section id="Understanding_HTML" class="main-section">
+                <header class="main-header">Understanding HTML</header>
+                <p>HTML serves as the backbone of web content, providing the structural framework that defines the elements and layout of a web page. HTML uses tags to mark different content types and structure, such as headings, paragraphs, lists, and links. Developers utilize HTML to create a well-organized and semantically meaningful foundation for web pages.</p>
+                <p>HyperText Markup Language, commonly known as HTML, is the standard markup language for creating web pages. It defines the structure of content on a webpage using a set of tags and elements.</p>
+                <pre>
+                    <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;title&gt;Your Title Here&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;!-- Your content goes here --&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;                    
+                    </code>
+            </pre> 
+            <p>HTML offers six levels of headings (h1 to h6) to structure content hierarchically. Paragraphs are created using the &lt;p&gt; tag.</p>   
+            <div>
+                <h3>Example of Headings</h3>
+                <ul>
+                <li>&lt;h1&gt;: Main Heading</li>
+                <li>&lt;h2&gt;: Subheading</li>
+                <li>&lt;h3&gt;: Sub-subheading</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Common Text Formatting Tags</h3>
+                <ul>
+                <li>&lt;em&gt;: Emphasis</li>
+                <li>&lt;strong&gt;: Strong Importance</li>
+                <li>&lt;u&gt;: Underline</li>
+                <li>&lt;br&gt;: Line Break</li>
+                </ul>
+            </div>
+            </section>
+            <section id="Styling_with_CSS" class="main-section">
+                <header class="main-header">Styling with CSS</header>
+                <p>CSS is responsible for the visual presentation and layout of web pages. By using CSS, developers can control the colors, fonts, spacing, and overall design of their web content, enhancing user experience and creating a consistent look across the site.</p>
+                <p>Cascading Style Sheets, or CSS, is a stylesheet language that defines how HTML elements should be displayed on a webpage. It allows developers to separate the structure (HTML) from the presentation (CSS) of a website.</p>
+                <code>
+                    <pre>
+                p {
+                    font-size: 16px;
+                    color: #333;
+                    line-height: 1.5;
+                }
+                    </pre>
+                </code>
+                <p>CSS employs selectors to target specific HTML elements and apply styling rules to them. Properties control the appearance of the selected elements.</p>
+                <div>
+                <h3>Common CSS Properties</h3>
+                <ul>
+                <li>'color': Text color</li>
+                <li>'font-size': Text size</li>
+                <li>'margin': Spacing outside the element</li>
+                <li>'padding': Spacing inside the element</li>
+                <li>'background-color': Background color</li>
+                </ul>
+            </div>
+            </section>
+            <section id="Interactivity_with_JavaScript" class="main-section">
+                <header class="main-header">Interactivity with JavaScript</header>
+                <p>JavaScript is a versatile programming language that enables dynamic and interactive features on web pages. It empowers developers to create responsive user interfaces, handle user interactions, and manipulate web content in real-time.</p>
+                <p>JavaScript is a scripting language that adds interactivity to web pages. It can be embedded directly within HTML documents and executed by web browsers.</p>
+                <code>
+                    <pre>
+                // Displaying an alert when a button is clicked
+                function showAlert() {
+                    alert("Button clicked!");
+                }
+                    </pre>
+                </code>
+                <p>JavaScript enables event-driven programming, where functions are executed in response to specific events like clicks, inputs, or page loads.</p>
+                <div>
+                    <h3>Common JavaScript Events</h3>
+                    <ul>
+                    <li>'click': Occurs when an element is clicked</li>
+                    <li>'submit': Occurs when a form is submitted</li>
+                    <li>'keydown': Occurs when a key is pressed down</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="Bringing_it_All_Together" class="main-section">
+                <header class="main-header">Bringing it All Together</header>
+                <p>In this section, we'll combine HTML, CSS, and JavaScript to build a basic interactive web page. This example will demonstrate how these technologies work together harmoniously to create a cohesive user experience.</p>
+                <p>By combining HTML for structure, CSS for styling, and JavaScript for interactivity, developers can create dynamic and visually appealing web pages.</p>
+                <code>
+                    <pre>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;Interactive Web Page&lt;/title&gt;
+                    &lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;
+                    &lt;script type="text/javascript" src="script.js"&gt;&lt;/script&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Welcome to Our Interactive Page&lt;/h1&gt;
+                    &lt;p&gt;Click the button below to see a message:&lt;/p&gt;
+                    &lt;button onclick="showMessage()"&gt;Show Message&lt;/button&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                    </pre>
+                </code>
+                <code>
+                    <pre>
+                // script.js
+                function showMessage() {
+                    var message = "Hello, this is an interactive message!";
+                    alert(message);
+                }
+                    
+                    </pre>
+                </code>
+
+            </section>
+            <section id="Conclusion" class="main-section">
+                <header class="main-header">Conclusion</header>
+                <p>Understanding the trio of CSS, HTML, and JavaScript forms the cornerstone of web development. By mastering these technologies, developers can create engaging and feature-rich websites that cater to modern user expectations. Whether you're a beginner or an experienced coder, these fundamentals lay the groundwork for a successful journey into the world of web development.</p>
+            </section>
+     </div>
+    </main>
+  </body>
+</html>
